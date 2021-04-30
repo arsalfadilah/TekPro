@@ -20,7 +20,6 @@ public class Manager extends Employee {
 		return secretaryName; 
 	} 
 	
-	
 	private String secretaryName;
 }
 
