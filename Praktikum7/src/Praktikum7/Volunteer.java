@@ -9,7 +9,6 @@ public class Volunteer extends StaffMember {
 		super (eName, eAddress, ePhone);
 	}
 	
-	
 	// -----------------------------------------------------------------
 	//	Returns a zero pay value for this volunteer.
 	//-----------------------------------------------------------------

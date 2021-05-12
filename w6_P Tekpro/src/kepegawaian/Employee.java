@@ -1,6 +1,6 @@
 package kepegawaian;
 
-class Employee extends Sortable{
+class Employee implements Sort_able{
 	public Employee(String n, double s, int day, int month, int year){
 		name = n; 
 		salary = s; 
@@ -20,17 +20,19 @@ class Employee extends Sortable{
 		return hireyear;
 	}
 	
-	public int compare(Sortable b) {
-		Employee eb = (Employee) b;
-		if(salary < eb.salary) return -1;
-		if(salary > eb.salary) return 1;
-		return 0;
-	}
-	
+//	@Override
+//	public int compare(Sort_able b) {
+//		Employee eb = (Employee) b;
+//		if(salary < eb.salary) return -1;
+//		if(salary > eb.salary) return 1;
+//		return 0;
+//	}
+//	
 	private String name; 
 	private double salary; 
 	private int hireday; 
 	private int hiremonth;
 	private int hireyear;
+
 
 }

@@ -3,7 +3,7 @@ package kepegawaian;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Manager extends Employee {
+public class Manager extends Employee implements Sort_able {
 	public Manager (String n, double s, int d, int m, int y){ 
 		super(n, s, d, m, y); 
 		secretaryName = ""; 
